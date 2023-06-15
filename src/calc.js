@@ -7,4 +7,8 @@ function sum(n1, n2) {
 function subtraction(n1, n2) {
   return n1 - n2;
 }
-export { sum, subtraction };
+function multiplication(n1, n2) {
+  return n1 * n2 + 3;
+}
+export {  subtraction,multiplication };
+export default sum;
